@@ -68,7 +68,7 @@ http_archive(
     name = "org_tensorflow",
     sha256 = "5044554782257c269bd6b28e30560aa1d18ed36fe38c6dc52d4bb90c46009592",
     urls = [
-      "https://mirror.bazel.build/github.com/tensorflow/tensorflow/archive/%s.tar.gz" % _TENSORFLOW_GIT_COMMIT,
+#      "https://mirror.bazel.build/github.com/tensorflow/tensorflow/archive/%s.tar.gz" % _TENSORFLOW_GIT_COMMIT,
       "https://github.com/tensorflow/tensorflow/archive/%s.tar.gz" % _TENSORFLOW_GIT_COMMIT,
     ],
     strip_prefix = "tensorflow-%s" % _TENSORFLOW_GIT_COMMIT,
@@ -83,7 +83,7 @@ http_archive(
     sha256 = "e0a111000aeed2051f29fcc7a3f83be3ad8c6c93c186e64beb1ad313f0c7f9f9",
     strip_prefix = "rules_closure-cf1e44edb908e9616030cc83d085989b8e6cd6df",
     urls = [
-        "http://mirror.tensorflow.org/github.com/bazelbuild/rules_closure/archive/cf1e44edb908e9616030cc83d085989b8e6cd6df.tar.gz",
+#        "http://mirror.tensorflow.org/github.com/bazelbuild/rules_closure/archive/cf1e44edb908e9616030cc83d085989b8e6cd6df.tar.gz",
         "https://github.com/bazelbuild/rules_closure/archive/cf1e44edb908e9616030cc83d085989b8e6cd6df.tar.gz",  # 2019-04-04
     ],
 )
